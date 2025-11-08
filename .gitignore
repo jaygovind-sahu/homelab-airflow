@@ -1,0 +1,98 @@
+# Environment / secrets
+.env
+.env.*          # local env variants
+.envrc
+.secrets/
+secrets.json
+credentials.json
+*.key
+*.pem
+*.crt
+*.p12
+id_rsa*
+id_ed25519*
+
+# Airflow / runtime
+airflow.db
+*.db
+logs/
+airflow_logs/
+dags/*.log
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+venv/
+.env-venv/
+.envrc
+.env.local
+.env.*.local
+.env.local.*
+.venv/
+env/
+ENV/
+build/
+dist/
+eggs/
+*.egg-info/
+.wheelhouse/
+pip-wheel-metadata/
+.pytest_cache/
+.coverage
+htmlcov/
+config/
+
+# Packaging / build
+*.egg
+*.whl
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Container / Docker
+docker-compose.override.yml
+docker-compose.*.yml
+.docker/
+*.tar
+*.log
+
+# Node / JS (if present)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.pnp.js
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Terraform / cloud SDKs / misc credentials
+.terraform/
+.terraform.lock.hcl
+.terraform.d/
+.aws/
+.gcloud/
+.azure/
+google_application_credentials.json
+
+# Test / coverage artifacts
+.coverage
+coverage.xml
+nosetests.xml
+junit*.xml
+
+# Misc
+*.swp
